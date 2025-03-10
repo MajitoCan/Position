@@ -1,0 +1,57 @@
+@media (max-width: 480px) {
+    .contenedor_menu{
+        display: none;
+    }
+    .icono_menu{
+        display: block;
+    }
+    .contenedor_menu ul {
+        display: none;
+    }
+    .union{
+        display: none;
+    }
+    .contenedor_cabecera{
+        padding: 15px 50px;
+    }
+    .logo{
+        width: 200px;
+    }
+/* seccion */
+    .contenedor_seccion{
+        padding: 70px 0px 120px 0px;
+    }
+    .informacion{
+        width: 400px;
+    }
+    .informacion figure{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 40px;
+    }
+    h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    p{
+        font-size: 16px;
+        margin: 30px 30px;
+    }
+    .btn-gris a{
+        font-size: 16px;
+    }
+
+    /* position */
+    .icono{
+    width: 80px;
+    height: 80px;
+    bottom: -25px;
+    left: calc(50% - 25px);
+    }
+    .subir{
+        width: 60px;
+        height: 60px;
+        padding: 20px 23px;
+        bottom: 100px;
+    }
+}
